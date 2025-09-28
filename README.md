@@ -53,8 +53,9 @@ npx prettier . --write # Runs prettier on entire project
 npx --write myFolder/myFile.js # Runs prettier on specific folder
 ```
 
-**Lint and format all staged files before committing with:** <br/>
-`npx lint-staged`
+**Husky**<br/>
+In the pre-commit file, you'll find this line: `npx lint-staged` <br/>
+When committing changes, this will lint and format all staged files before the files are actually being committed.
 
 ---
 
