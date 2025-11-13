@@ -25,7 +25,6 @@ cd workflow-repo-ca
 
 ```bash
 npm install # Installs dependencies
-
 ```
 
 **Run the project:**
@@ -61,8 +60,8 @@ When committing changes, this will lint and format all staged files before the f
 
 ### Tests
 
-- Find all unit tests [here](./tests/unit-tests/).
-- Find all end-to-end (e2e) tests [here](./tests/e2e-tests/).
+- Find all unit tests [here](tests/units).
+- Find all end-to-end (e2e) tests [here](tests/e2e).
 
 **Unit testing with Vitest:**
 
