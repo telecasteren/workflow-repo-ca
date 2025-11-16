@@ -21,6 +21,7 @@ Playground for testing workflow with `husky`, `eslint`, `prettier`, and code tes
 ```bash
 git clone https://github.com/telecasteren/workflow-repo-ca.git
 cd workflow-repo-ca
+git switch workflow
 ```
 
 ```bash
