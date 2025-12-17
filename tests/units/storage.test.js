@@ -3,12 +3,7 @@ import { getUsername } from "/js/utils/storage.js";
 
 describe("storage functions", () => {
   beforeEach(() => {
-    const storage = {};
-
-    globalThis.localStorage = {
-      setItem: (key, value) => (storage[key] = value),
-      getItem: (key) => storage[key],
-    };
+    localStorage.clear();
   });
 
   describe("getUsername", () => {
