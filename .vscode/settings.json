@@ -1,0 +1,9 @@
+{
+  "github.copilot.advanced": {},
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.nextEditSuggestions.allowWhitespaceOnlyChanges": true,
+  "github.copilot.editor.enableCodeActions": false,
+  "github.copilot.chat.copilotDebugCommand.enabled": false,
+  "github.copilot.nextEditSuggestions.fixes": false,
+  "github.copilot.renameSuggestions.triggerAutomatically": false
+}
